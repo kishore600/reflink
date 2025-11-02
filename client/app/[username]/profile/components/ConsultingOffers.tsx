@@ -19,7 +19,7 @@ export default function ConsultingOffers({ offers }:any) {
       </p>
 
       <div className="space-y-4">
-        {offers.map(({offer}:any) => (
+        {offers.map((offer:any) => (
           <div 
             key={offer?.id}
             className="border-2 border-gray-200 rounded-xl p-5 hover:border-blue-500 transition-all cursor-pointer"
@@ -63,7 +63,7 @@ export default function ConsultingOffers({ offers }:any) {
       {selectedOffer && (
         <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center p-4 z-50">
           <div className="bg-white rounded-2xl p-6 max-w-md w-full">
-            <h3 className="text-xl font-bold mb-4">Book {selectedOffer.title}</h3>
+            <h3 className="text-xl font-bold mb-4 text-black">Book {selectedOffer.title}</h3>
             {/* Calendar and time slot selection would go here */}
             <div className="flex space-x-3 mt-6">
               <button 
