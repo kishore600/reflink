@@ -1,0 +1,24 @@
+OPENAI_API_KEY = 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
+
+#DB_PORT_ENV_SECRET
+MONGODB_URI = mongodb+srv://kishore:user123@kishorek.o7lkgiq.mongodb.net/reflink
+PORT = 8000
+NODE_ENV = development
+JWT_SECRET = reflink 
+
+#CLOUDNARIRY
+CLOUDINARY_NAME = habistreak
+CLOUDINARY_API_KEY = 924328644749334
+CLOUDINARY_API_SECRET_KEY=E8-WzZgTAWJ0Iq3c0-fd1FvYvBM
+
+#SEND MAIL
+EMAIL_SERVICE = Gmail
+EMAIL_USERNAME = kishore.knaresh07@gmail.com
+EMAIL_PASSWORD = ddidxwidzxzbxvcc
+FROM_NAME = reflink
+FROM_EMAIL = kishore.knaresh07@gmail.com
+
+
+
+kishore_k = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5MDc5NTFhOTBjOGQ4OTdkNzc2Y2ExMCIsImlhdCI6MTc2MjEwNTM4MSwiZXhwIjoxNzYzODMzMzgxfQ.xgVf-hwfBlQ2_ztJ190wzmSUqlekIxsEAIkLglOWMB4
+naresh_k = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5MDhjOWE5ODYzNjQzMDFiY2QwNGU2YSIsImlhdCI6MTc2MjE4MzU5NCwiZXhwIjoxNzYzOTExNTk0fQ.R88aYQYiYsydDTdeaLjS6FrnCt_VwOxwMmVODIAHL6Q
