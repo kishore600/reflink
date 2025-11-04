@@ -132,7 +132,7 @@ export default function EditProfilePage() {
               required
               value={formData.name}
               onChange={(e) => setFormData(prev => ({ ...prev, name: e.target.value }))}
-              className="w-full border border-gray-300 rounded-lg px-3 py-2 focus:outline-none focus:ring-blue-500 focus:border-blue-500"
+              className="w-full border text-black border-gray-300 rounded-lg px-3 py-2 focus:outline-none focus:ring-blue-500 focus:border-blue-500"
             />
           </div>
 
@@ -145,7 +145,7 @@ export default function EditProfilePage() {
               required
               value={formData.title}
               onChange={(e) => setFormData(prev => ({ ...prev, title: e.target.value }))}
-              className="w-full border border-gray-300 rounded-lg px-3 py-2 focus:outline-none focus:ring-blue-500 focus:border-blue-500"
+              className="w-full border text-black border-gray-300 rounded-lg px-3 py-2 focus:outline-none focus:ring-blue-500 focus:border-blue-500"
               placeholder="e.g., Full-Stack Developer"
             />
           </div>
@@ -159,7 +159,7 @@ export default function EditProfilePage() {
               required
               value={formData.experience}
               onChange={(e) => setFormData(prev => ({ ...prev, experience: e.target.value }))}
-              className="w-full border border-gray-300 rounded-lg px-3 py-2 focus:outline-none focus:ring-blue-500 focus:border-blue-500"
+              className="w-full border text-black border-gray-300 rounded-lg px-3 py-2 focus:outline-none focus:ring-blue-500 focus:border-blue-500"
               placeholder="e.g., 2 Years Experience"
             />
           </div>
@@ -173,7 +173,7 @@ export default function EditProfilePage() {
               required
               value={formData.location}
               onChange={(e) => setFormData(prev => ({ ...prev, location: e.target.value }))}
-              className="w-full border border-gray-300 rounded-lg px-3 py-2 focus:outline-none focus:ring-blue-500 focus:border-blue-500"
+              className="w-full border text-black border-gray-300 rounded-lg px-3 py-2 focus:outline-none focus:ring-blue-500 focus:border-blue-500"
               placeholder="e.g., Bangalore, India"
             />
           </div>
@@ -188,7 +188,7 @@ export default function EditProfilePage() {
             value={formData.bio}
             onChange={(e) => setFormData(prev => ({ ...prev, bio: e.target.value }))}
             rows={4}
-            className="w-full border border-gray-300 rounded-lg px-3 py-2 focus:outline-none focus:ring-blue-500 focus:border-blue-500"
+            className="w-full  text-black border border-gray-300 rounded-lg px-3 py-2 focus:outline-none focus:ring-blue-500 focus:border-blue-500"
             placeholder="Tell us about yourself, your skills, and what you're looking for..."
           />
         </div>
@@ -204,12 +204,12 @@ export default function EditProfilePage() {
               value={newSkill.name}
               onChange={(e) => setNewSkill(prev => ({ ...prev, name: e.target.value }))}
               placeholder="Skill name"
-              className="flex-1 border border-gray-300 rounded-lg px-3 py-2 focus:outline-none focus:ring-blue-500 focus:border-blue-500"
+              className="flex-1 text-black border border-gray-300 rounded-lg px-3 py-2 focus:outline-none focus:ring-blue-500 focus:border-blue-500"
             />
             <select
               value={newSkill.level}
               onChange={(e) => setNewSkill(prev => ({ ...prev, level: parseInt(e.target.value) }))}
-              className="border border-gray-300 rounded-lg px-3 py-2 focus:outline-none focus:ring-blue-500 focus:border-blue-500"
+              className="border text-black border-gray-300 rounded-lg px-3 py-2 focus:outline-none focus:ring-blue-500 focus:border-blue-500"
             >
               <option value={1}>⭐ Beginner</option>
               <option value={2}>⭐⭐ Intermediate</option>
@@ -252,7 +252,7 @@ export default function EditProfilePage() {
               value={newRole}
               onChange={(e) => setNewRole(e.target.value)}
               placeholder="e.g., Frontend Developer"
-              className="flex-1 border border-gray-300 rounded-lg px-3 py-2 focus:outline-none focus:ring-blue-500 focus:border-blue-500"
+              className="flex-1 text-black border border-gray-300 rounded-lg px-3 py-2 focus:outline-none focus:ring-blue-500 focus:border-blue-500"
             />
             <button
               type="button"
@@ -289,7 +289,7 @@ export default function EditProfilePage() {
               value={newCompany}
               onChange={(e) => setNewCompany(e.target.value)}
               placeholder="e.g., Google, Microsoft"
-              className="flex-1 border border-gray-300 rounded-lg px-3 py-2 focus:outline-none focus:ring-blue-500 focus:border-blue-500"
+              className="flex-1 text-black border border-gray-300 rounded-lg px-3 py-2 focus:outline-none focus:ring-blue-500 focus:border-blue-500"
             />
             <button
               type="button"
@@ -323,7 +323,7 @@ export default function EditProfilePage() {
           <select
             value={formData.remotePolicy}
             onChange={(e) => setFormData(prev => ({ ...prev, remotePolicy: e.target.value }))}
-            className="w-full border border-gray-300 rounded-lg px-3 py-2 focus:outline-none focus:ring-blue-500 focus:border-blue-500"
+            className="w-full border text-black border-gray-300 rounded-lg px-3 py-2 focus:outline-none focus:ring-blue-500 focus:border-blue-500"
           >
             <option value="Remote Only">Remote Only</option>
             <option value="Hybrid Preferred">Hybrid Preferred</option>

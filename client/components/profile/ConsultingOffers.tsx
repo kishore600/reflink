@@ -119,7 +119,7 @@ export default function ConsultingOffers({ offers, userId, username }: Consultin
       {selectedOffer && (
         <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center p-4 z-50">
           <div className="bg-white rounded-2xl p-6 max-w-md w-full">
-            <h3 className="text-xl font-bold mb-4">Book {selectedOffer.title}</h3>
+            <h3 className="text-black text-xl font-bold mb-4">Book {selectedOffer.title}</h3>
             
             <div className="space-y-4">
               <div>
@@ -130,7 +130,7 @@ export default function ConsultingOffers({ offers, userId, username }: Consultin
                   type="datetime-local"
                   value={bookingDate}
                   onChange={(e) => setBookingDate(e.target.value)}
-                  className="w-full border border-gray-300 rounded-lg px-3 py-2 focus:outline-none focus:ring-blue-500 focus:border-blue-500"
+                  className="text-black w-full border border-gray-300 rounded-lg px-3 py-2 focus:outline-none focus:ring-blue-500 focus:border-blue-500"
                 />
               </div>
               
@@ -142,7 +142,7 @@ export default function ConsultingOffers({ offers, userId, username }: Consultin
                   value={bookingNotes}
                   onChange={(e) => setBookingNotes(e.target.value)}
                   rows={3}
-                  className="w-full border border-gray-300 rounded-lg px-3 py-2 focus:outline-none focus:ring-blue-500 focus:border-blue-500"
+                  className="text-black w-full border border-gray-300 rounded-lg px-3 py-2 focus:outline-none focus:ring-blue-500 focus:border-blue-500"
                   placeholder="Describe what you'd like help with..."
                 />
               </div>

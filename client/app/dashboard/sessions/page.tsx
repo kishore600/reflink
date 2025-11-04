@@ -37,7 +37,7 @@ export default function SessionsPage() {
   return (
     <div className="max-w-6xl mx-auto">
       <div className="mb-8">
-        <h1 className="text-3xl font-bold text-gray-900 mb-2">My Sessions</h1>
+        <h1 className="text-3xl font-bold text-gray-200 mb-2">My Sessions</h1>
         <p className="text-gray-600">Manage your consulting sessions and track progress</p>
       </div>
 
