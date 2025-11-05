@@ -3,7 +3,8 @@ import express from 'express';
 import {
   bookSession,
   getUserSessions,
-  updateSessionStatus
+  updateSessionStatus,
+  cancelSession
 } from '../controllers/sessionController.js';
 import { protect } from '../middleware/auth.js';
 
@@ -12,5 +13,6 @@ const router = express.Router();
 router.get('/', protect, getUserSessions);
 router.post('/', protect, bookSession);
 router.put('/:id/status', protect, updateSessionStatus);
+router.delete('/:id', protect, cancelSession);
 
 export default router;

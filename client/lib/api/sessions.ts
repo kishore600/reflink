@@ -43,4 +43,9 @@ export const sessionsAPI = {
     const response = await api.put(`/sessions/${sessionId}/status`, statusData);
     return response.data;
   },
+
+    cancelSession: async (sessionId: string): Promise<void> => {
+    const response = await api.delete(`/sessions/${sessionId}`);
+    return response.data;
+  },
 };

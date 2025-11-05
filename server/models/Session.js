@@ -59,7 +59,7 @@ const sessionSchema = new mongoose.Schema({
   referral: {
     type: mongoose.Schema.Types.ObjectId,
     ref: 'Referral'
-  }
+  },
 }, {
   timestamps: true
 });

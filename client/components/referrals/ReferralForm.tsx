@@ -52,7 +52,7 @@ export default function ReferralForm({ sessionId, existingReferral, onClose, onS
   return (
     <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center p-4 z-50">
       <div className="bg-white rounded-2xl p-6 max-w-2xl w-full max-h-[90vh] overflow-y-auto">
-        <h3 className="text-xl font-bold mb-4">
+        <h3 className="text-xl font-bold mb-4 text-black">
           {existingReferral ? 'Update Referral' : 'Submit Referral'}
         </h3>
 
@@ -67,7 +67,7 @@ export default function ReferralForm({ sessionId, existingReferral, onClose, onS
                 required
                 value={formData.company}
                 onChange={(e) => setFormData(prev => ({ ...prev, company: e.target.value }))}
-                className="w-full border border-gray-300 rounded-lg px-3 py-2 focus:outline-none focus:ring-blue-500 focus:border-blue-500"
+                className="w-full border text-black border-gray-300 rounded-lg px-3 py-2 focus:outline-none focus:ring-blue-500 focus:border-blue-500"
                 placeholder="e.g., Google, Microsoft"
               />
             </div>
@@ -81,7 +81,7 @@ export default function ReferralForm({ sessionId, existingReferral, onClose, onS
                 required
                 value={formData.position}
                 onChange={(e) => setFormData(prev => ({ ...prev, position: e.target.value }))}
-                className="w-full border border-gray-300 rounded-lg px-3 py-2 focus:outline-none focus:ring-blue-500 focus:border-blue-500"
+                className="w-full border text-black border-gray-300 rounded-lg px-3 py-2 focus:outline-none focus:ring-blue-500 focus:border-blue-500"
                 placeholder="e.g., Senior Frontend Developer"
               />
             </div>
@@ -95,7 +95,7 @@ export default function ReferralForm({ sessionId, existingReferral, onClose, onS
               value={formData.jobDescription}
               onChange={(e) => setFormData(prev => ({ ...prev, jobDescription: e.target.value }))}
               rows={3}
-              className="w-full border border-gray-300 rounded-lg px-3 py-2 focus:outline-none focus:ring-blue-500 focus:border-blue-500"
+              className="w-full border text-black border-gray-300 rounded-lg px-3 py-2 focus:outline-none focus:ring-blue-500 focus:border-blue-500"
               placeholder="Describe the role and requirements..."
             />
           </div>
@@ -108,7 +108,7 @@ export default function ReferralForm({ sessionId, existingReferral, onClose, onS
               type="url"
               value={formData.applicationLink}
               onChange={(e) => setFormData(prev => ({ ...prev, applicationLink: e.target.value }))}
-              className="w-full border border-gray-300 rounded-lg px-3 py-2 focus:outline-none focus:ring-blue-500 focus:border-blue-500"
+              className="w-full border border-gray-300 text-black rounded-lg px-3 py-2 focus:outline-none focus:ring-blue-500 focus:border-blue-500"
               placeholder="https://company.com/careers/position"
             />
           </div>
@@ -122,7 +122,7 @@ export default function ReferralForm({ sessionId, existingReferral, onClose, onS
               value={formData.employeeNotes}
               onChange={(e) => setFormData(prev => ({ ...prev, employeeNotes: e.target.value }))}
               rows={4}
-              className="w-full border border-gray-300 rounded-lg px-3 py-2 focus:outline-none focus:ring-blue-500 focus:border-blue-500"
+              className="w-full border text-black border-gray-300 rounded-lg px-3 py-2 focus:outline-none focus:ring-blue-500 focus:border-blue-500"
               placeholder="Why are you recommending this candidate? What impressed you about their work?"
             />
           </div>
